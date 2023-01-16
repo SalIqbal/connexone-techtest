@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 200px);
+}
+.MainContainer{
+  background-color: #7893e272;
+  word-break: break-all;
+  overflow-y: scroll;
+  display:flex;
+}
+
+.displayTime {
+  flex: 2;
+  border: 1px solid rgb(152, 55, 55);
+  padding:10px;
+}
+
+
+.displayMetrics {
+ flex: 10;
+ border: 1px solid rgb(152, 55, 55);
+ padding:10px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "connexone2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-prometheus-middleware": "^1.2.0"
+  }
+}
